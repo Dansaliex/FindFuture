@@ -1,0 +1,329 @@
+﻿<html>
+<head>
+	<title>Тест А.Голомштока</title>
+	<!-- CSS Styles -->
+	<link href="./css/style.css" rel="stylesheet">
+	<link href="./css/tests.css" rel="stylesheet">
+	<link href="./css/preload.css" rel="stylesheet">
+	<!-- JS -->
+	<script src="./js/preload.js"></script>
+</head>
+<body>
+	<!--================Preload Animation =================-->
+	<div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
+    <!--================Preload Animation =================-->
+
+	<!--================Header Menu Area =================-->
+	<section>
+	<header>
+	<div class="logo">
+		<a href="./index.htm"><img src="./img/logo.png"></a>
+	</div>
+		<ul>
+			<li><a href="./index.htm">Главная</a></li>
+			<li><a href="./tests.htm">Тесты</a></li>
+			<li><a href="./reg.htm">Регистрация</a></li>
+			<li><a href="./login.htm">Авторизация</a></li>
+		</ul>
+	</header>
+	</section>
+	<!--================Header Menu Area =================-->
+
+	<!--================Main Area =================-->
+	<br>
+	<br>
+	<p class="text_1">Тест по профориентации</p>
+	<p class="text_2">(модификация методики Карта Интересов А. Голомштока)</p>
+	<br>
+	<p class="text_2">Инструкция.</p>
+	<p class="text_2">Данные вопросы касаются Вашего отношения к различным направлениям
+	деятельности. Нравится ли Вам делать то, о чем говориться в опроснике?</p>
+	<p class="text_2">Если это близко к вам, то в тесте выберите "да". Если не нравится, то "нет".</p>
+	<br>
+	<br>
+	<div class="test_form_1">
+	<form method="post" action="./scripts/prof_1.php">
+		<div class="element">
+			<p><strong>Вопрос №1:</strong> Узнавать об открытиях в области физики и математики</p>
+			<p><input type="radio" name="value_1" value="Да"> Да</p>
+			<p><input type="radio" name="value_1" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №2:</strong> Смотреть передачи о жизни растений и животных</p>
+			<p><input type="radio" name="value_2" value="Да"> Да</p>
+			<p><input type="radio" name="value_2" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №3:</strong> Выяснять устройство электроприборов</p>
+			<p><input type="radio" name="value_3" value="Да"> Да</p>
+			<p><input type="radio" name="value_3" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №4:</strong> Читать научно-популярные технические журналы</p>
+			<p><input type="radio" name="value_4" value="Да"> Да</p>
+			<p><input type="radio" name="value_4" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №5:</strong> Смотреть передачи о жизни людей в разных странах</p>
+			<p><input type="radio" name="value_5" value="Да"> Да</p>
+			<p><input type="radio" name="value_5" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №6:</strong> Бывать на выставках, концертах, спектаклях</p>
+			<p><input type="radio" name="value_6" value="Да"> Да</p>
+			<p><input type="radio" name="value_6" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №7:</strong> Обсуждать и анализировать события в стране и за рубежом</p>
+			<p><input type="radio" name="value_7" value="Да"> Да</p>
+			<p><input type="radio" name="value_7" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №8:</strong> Наблюдать за работой медсестры, врача</p>
+			<p><input type="radio" name="value_8" value="Да"> Да</p>
+			<p><input type="radio" name="value_8" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №9:</strong> Создавать уют и порядок в доме, классе, школе</p>
+			<p><input type="radio" name="value_9" value="Да"> Да</p>
+			<p><input type="radio" name="value_9" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №10:</strong> Читать книги и смотреть фильмы о войнах и сражениях</p>
+			<p><input type="radio" name="value_10" value="Да"> Да</p>
+			<p><input type="radio" name="value_10" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №11:</strong> Заниматься математическими расчетами и вычислениями</p>
+			<p><input type="radio" name="value_11" value="Да"> Да</p>
+			<p><input type="radio" name="value_11" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №12:</strong> Узнавать об открытиях в области химии и биологии</p>
+			<p><input type="radio" name="value_12" value="Да"> Да</p>
+			<p><input type="radio" name="value_12" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №13:</strong> Ремонтировать бытовые электроприборы</p>
+			<p><input type="radio" name="value_13" value="Да"> Да</p>
+			<p><input type="radio" name="value_13" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №14:</strong> Посещать технические выставки, знакомиться с достижениями науки и
+техники</p>
+			<p><input type="radio" name="value_14" value="Да"> Да</p>
+			<p><input type="radio" name="value_14" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №15:</strong> Ходить в походы, бывать в новых неизведанных местах</p>
+			<p><input type="radio" name="value_15" value="Да"> Да</p>
+			<p><input type="radio" name="value_15" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №16:</strong> Читать отзывы и статьи о книгах, фильмах, концертах</p>
+			<p><input type="radio" name="value_16" value="Да"> Да</p>
+			<p><input type="radio" name="value_16" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №17:</strong> Участвовать в общественной жизни школы, города</p>
+			<p><input type="radio" name="value_17" value="Да"> Да</p>
+			<p><input type="radio" name="value_17" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №18:</strong> Объяснять одноклассникам учебный материал</p>
+			<p><input type="radio" name="value_18" value="Да"> Да</p>
+			<p><input type="radio" name="value_18" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №19:</strong> Самостоятельно выполнять работу по хозяйству</p>
+			<p><input type="radio" name="value_19" value="Да"> Да</p>
+			<p><input type="radio" name="value_19" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №20:</strong> Соблюдать режим, вести здоровый образ жизни</p>
+			<p><input type="radio" name="value_20" value="Да"> Да</p>
+			<p><input type="radio" name="value_20" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №21:</strong> Проводить опыты по физике</p>
+			<p><input type="radio" name="value_21" value="Да"> Да</p>
+			<p><input type="radio" name="value_21" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №22:</strong> Ухаживать за животными растениями</p>
+			<p><input type="radio" name="value_22" value="Да"> Да</p>
+			<p><input type="radio" name="value_22" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №23:</strong> Читать статьи об электронике и радиотехнике</p>
+			<p><input type="radio" name="value_23" value="Да"> Да</p>
+			<p><input type="radio" name="value_23" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №24:</strong> Собирать и ремонтировать часы, замки, велосипеды</p>
+			<p><input type="radio" name="value_24" value="Да"> Да</p>
+			<p><input type="radio" name="value_24" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №25:</strong> Коллекционировать камни, минералы</p>
+			<p><input type="radio" name="value_25" value="Да"> Да</p>
+			<p><input type="radio" name="value_25" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №26:</strong> Вести дневник, сочинять стихи и рассказы</p>
+			<p><input type="radio" name="value_26" value="Да"> Да</p>
+			<p><input type="radio" name="value_26" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №27:</strong> Читать биографии известных политиков, книги по истории</p>
+			<p><input type="radio" name="value_27" value="Да"> Да</p>
+			<p><input type="radio" name="value_27" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №28:</strong> Играть с детьми, помогать делать уроки младшим</p>
+			<p><input type="radio" name="value_28" value="Да"> Да</p>
+			<p><input type="radio" name="value_28" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №29:</strong> Закупать продукты для дома, вести учет расходов</p>
+			<p><input type="radio" name="value_29" value="Да"> Да</p>
+			<p><input type="radio" name="value_29" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №30:</strong> Участвовать в военных играх, походах</p>
+			<p><input type="radio" name="value_30" value="Да"> Да</p>
+			<p><input type="radio" name="value_30" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №31:</strong> Заниматься физикой и математикой сверх школьной программы</p>
+			<p><input type="radio" name="value_31" value="Да"> Да</p>
+			<p><input type="radio" name="value_31" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №32:</strong> Замечать и объяснять природные явления</p>
+			<p><input type="radio" name="value_32" value="Да"> Да</p>
+			<p><input type="radio" name="value_32" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №33:</strong> Собирать и ремонтировать компьютеры</p>
+			<p><input type="radio" name="value_33" value="Да"> Да</p>
+			<p><input type="radio" name="value_33" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №34:</strong> Строить чертежи, схемы, графики, в том числе на компьютере</p>
+			<p><input type="radio" name="value_34" value="Да"> Да</p>
+			<p><input type="radio" name="value_34" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №35:</strong> Участвовать в географических, геологических экспедициях</p>
+			<p><input type="radio" name="value_35" value="Да"> Да</p>
+			<p><input type="radio" name="value_35" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №36:</strong> Рассказывать друзьям о прочитанных книгах, увиденных фильмах и
+спектаклях</p>
+			<p><input type="radio" name="value_36" value="Да"> Да</p>
+			<p><input type="radio" name="value_36" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №37:</strong> Следить за политической жизнью в стране и за рубежом</p>
+			<p><input type="radio" name="value_37" value="Да"> Да</p>
+			<p><input type="radio" name="value_37" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №38:</strong> Ухаживать за маленькими детьми или близкими, если они заболели</p>
+			<p><input type="radio" name="value_38" value="Да"> Да</p>
+			<p><input type="radio" name="value_38" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №39:</strong> Искать и находить способы зарабатывания денег</p>
+			<p><input type="radio" name="value_39" value="Да"> Да</p>
+			<p><input type="radio" name="value_39" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №40:</strong> Заниматься физической культурой и спортом</p>
+			<p><input type="radio" name="value_40" value="Да"> Да</p>
+			<p><input type="radio" name="value_40" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №41:</strong> Участвовать в физико-математических олимпиадах</p>
+			<p><input type="radio" name="value_41" value="Да"> Да</p>
+			<p><input type="radio" name="value_41" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №42:</strong> Выполнять лабораторные опыты по химии и биологии</p>
+			<p><input type="radio" name="value_42" value="Да"> Да</p>
+			<p><input type="radio" name="value_42" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №43:</strong> Разбираться в принципах работы электроприборов</p>
+			<p><input type="radio" name="value_43" value="Да"> Да</p>
+			<p><input type="radio" name="value_43" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №44:</strong> Разбираться в принципах работы различных механизмов</p>
+			<p><input type="radio" name="value_44" value="Да"> Да</p>
+			<p><input type="radio" name="value_44" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №45:</strong> “Читать” географические и геологические карты</p>
+			<p><input type="radio" name="value_45" value="Да"> Да</p>
+			<p><input type="radio" name="value_45" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №46:</strong> Участвовать в спектаклях, концертах</p>
+			<p><input type="radio" name="value_46" value="Да"> Да</p>
+			<p><input type="radio" name="value_46" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №47:</strong> Изучать политику и экономику других стран</p>
+			<p><input type="radio" name="value_47" value="Да"> Да</p>
+			<p><input type="radio" name="value_47" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №48:</strong> Изучать причины поведения людей, строение человеческого организма</p>
+			<p><input type="radio" name="value_48" value="Да"> Да</p>
+			<p><input type="radio" name="value_48" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №49:</strong> Вкладывать заработанные деньги в домашний бюджет</p>
+			<p><input type="radio" name="value_49" value="Да"> Да</p>
+			<p><input type="radio" name="value_49" value="Нет"> Нет</p>
+		</div>
+		<div class="element">
+			<p><strong>Вопрос №50:</strong> Участвовать в спортивных соревнованиях</p>
+			<p><input type="radio" name="value_50" value="Да"> Да</p>
+			<p><input type="radio" name="value_50" value="Нет"> Нет</p>
+		</div>
+		<br>
+		<div class="element">
+			<center><p><input class="button_test_1" type="submit" value="Отправить ответы" /></p></center>
+		</div>
+	</form>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<!--================Main Area =================-->
+
+	<!--================Footer Area =================-->
+	<div class="footer">
+		<p class="footer-text-left">
+			Сайт разработан командой OMG-Soft
+		</p>
+		<div class="footer-content-right">
+			<a href="#"><img src="./img/icon/vk.png" class="icon-style" alt="VK icon"></a>	
+			<a href="#"><img src="./img/icon/instagram.png" class="icon-style" alt="Instagram icon"></a>
+			<a href="#"><img src="./img/icon/github.png" class="icon-style" alt="GitHub icon"></a>
+		</div>
+	</div>
+	<!--================Footer Area =================-->
+</body>
+</html>
