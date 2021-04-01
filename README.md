@@ -10,10 +10,9 @@ FindFuture
 
 Пройдя тест на профориентацию на нашем ресурсе, вы сможете понять, кем вы сможете стать в будущем!"
 
-![](//file:///home/user/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/eqHq1jInUZs.jpg)
-![](//http://test.nemigame.ru/)
-...[![Главная страница](////http://test.nemigame.ru/)](file:///home/user/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/eqHq1jInUZs.jpg)
+[![Главная страница](////http://test.nemigame.ru/)](file:///home/user/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/eqHq1jInUZs.jpg)
 
+![Иллюстрация к проекту](https://github.com/jon/coolproject/raw/master/image/image.png)
 
 Переходя дальше нажимая на кнопку: "Перейти" вы попадаете к списку самых иновационных и точных тестов, составленных ведущими псилогами России.
 
