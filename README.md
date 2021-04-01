@@ -8,6 +8,7 @@ FindFuture
 
 ![](//file:///home/user/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/eqHq1jInUZs.jpg)
 ![](//http://test.nemigame.ru/)
+[![Главная страница](//placehold.it/1280x720)](file:///home/user/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/eqHq1jInUZs.jpg)
 
 Не беда
 
